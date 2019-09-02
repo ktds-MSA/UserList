@@ -1,0 +1,12 @@
+com\kshrd\springbootdemo\service\FileUploadServiceImpl.class
+com\kshrd\springbootdemo\service\UserServiceImpl.class
+com\kshrd\springbootdemo\controller\UserController.class
+com\kshrd\springbootdemo\service\UserService.class
+com\kshrd\springbootdemo\model\User.class
+com\kshrd\springbootdemo\repository\UserRepository.class
+com\kshrd\springbootdemo\configuration\MultiLanguageConfiguration.class
+com\kshrd\springbootdemo\service\FileUploadService.class
+com\kshrd\springbootdemo\controller\FileUploadController.class
+com\kshrd\springbootdemo\configuration\FileUploadConfiguration.class
+com\kshrd\springbootdemo\repository\UserRepositoryImpl.class
+com\kshrd\springbootdemo\SpringBootDemoApplication.class
