@@ -14,13 +14,6 @@ pipeline {
 			
 			}
 		}
-		stage('Docker Push'){
-			
-				sh "${JENKINS_HOME}/script/pushbyhost.sh"
-			
-		}
-		stage('Deploy'){
-				sh "${JENKINS_HOME}/script/deploybyhost.sh"
-		}
+		
 	}
 }
