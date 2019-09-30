@@ -4,27 +4,23 @@ pipeline {
 	stages {
 		stage ('Compile Stage') {
 			steps {
-				withMaven(maven : 'maven_3_5_4') {
 				    sh 'mvn clean compile -f spring-boot-demo/pom.xml'
-				}
+				
 			}
 		}
 		stage ('Testing Stage') {
 			steps {
-				withMaven(maven : 'maven_3_5_4') {
 				    sh 'mvn surefire-report:report-only -f spring-boot-demo/pom.xml'
-				}
+			
 			}
 		}
 		stage('Docker Push'){
-			steps {
+			
 				sh "${JENKINS_HOME}/script/pushbyhost.sh"
-			}
+			
 		}
 		stage('Deploy'){
-			steps {
 				sh "${JENKINS_HOME}/script/deploybyhost.sh"
-			}
 		}
 	}
 }
