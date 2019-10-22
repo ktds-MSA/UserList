@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.kshrd.springbootdemo.SpringBootDemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.385 sec - in com.kshrd.springbootdemo.SpringBootDemoApplicationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.127 sec - in com.kshrd.springbootdemo.SpringBootDemoApplicationTests
